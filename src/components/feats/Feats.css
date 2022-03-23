@@ -1,0 +1,51 @@
+section, h3{
+    border: double
+}
+.flexdown{
+    display: flex;
+    flex-flow: column;
+}
+.flexside{
+    display: flex
+}
+.flexsidescroll{
+    display: flex;
+    overflow-x: scroll;
+}
+.sidewaysText{
+    border: double;
+    height: 80px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+.detailColumn1{
+    width:8rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+}
+.detailColumn2{
+    width:3rem;
+    min-width: 8rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+.detailColumn3{
+    margin-left: 10px;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+
+.detailColumn{
+    height: 5rem;
+}
+h3{
+    height:80px
+}
+.creation{
+    display: flex;
+    flex-direction: column;
+}

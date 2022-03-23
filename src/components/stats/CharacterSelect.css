@@ -1,0 +1,19 @@
+section, h3{
+    border: double
+}
+.flexdown{
+    display: flex;
+    flex-flow: column;
+}
+.flexside{
+    display: flex
+}
+.statgridColumn1{
+    width: 5rem
+}
+.statgridColumn2{
+    width: 5rem
+}
+.statgridColumn3{
+    width: 5rem
+}

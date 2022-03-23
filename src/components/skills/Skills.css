@@ -1,0 +1,67 @@
+section, h3{
+    border: double
+}
+.flexdown{
+    display: flex;
+    flex-flow: column;
+}
+.flexside{
+    display: flex
+}
+.flexsidescroll{
+    display: flex;
+    overflow-x: scroll;
+}
+.skillColumn1{
+    width:8rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;}
+.skillColumn2{
+    width:4rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.skillColumn3{
+    width:6rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.skillColumn4{
+    width:6rem;
+    display: flex;
+    flex-direction: column;
+}
+.crossClassSkill{
+    width:6rem;
+    color:rgb(0, 0, 0);
+    background-color: rgb(218, 132, 132);
+    height: 5rem;
+    font-size: 24px;
+    text-align: center;
+}
+.classSkill{
+    width:6rem;
+    color:rgb(0, 0, 0);
+    background-color: rgb(154, 255, 133);
+    height: 5rem;
+    font-size: 24px;
+    text-align: center;
+}
+.classSkillBlank{
+    width:6rem;
+    color:greenyellow;
+    background-color: white;
+    height: 5rem;
+    font-size: 24px;
+}
+
+.skillColumn{
+    height: 5rem;
+}
