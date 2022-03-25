@@ -75,6 +75,9 @@ export const NavBar = () => {
                             <Link className="nav-link" to={`/${characterId}/feats`}>Feats</Link>
                         </li>
                         <li className="nav-item">
+                            <Link className="nav-link" to={`/${characterId}/equipment`}>Equipment</Link>
+                        </li>
+                        <li className="nav-item">
                             <Link className="nav-link" to={`/${characterId}/sheets`}>Character Sheet</Link>
                         </li>
                         <li className="nav-item">

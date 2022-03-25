@@ -5,7 +5,6 @@ import { Character } from "./characters/Character"
 export const CharacterRoutes = () => {
     return <>
         <Route exact path="/:characterId(\d+)/character">
-            <h1>you found the hidden text! zomg</h1>
             <Character />
         </Route>
         <Route path="/undefined">
@@ -13,7 +12,6 @@ export const CharacterRoutes = () => {
             <Redirect to="/character" />
         </Route>
         <Route path="/character">
-            <h1>you found the hidden text! zomg</h1>
             <Character />
         </Route>
 

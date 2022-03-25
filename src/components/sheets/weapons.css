@@ -1,0 +1,44 @@
+.weapons{
+    position: absolute;
+    left: 57px;
+    top: 820px;
+}
+.singleWeapon{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+.row1{
+    display: flex;
+}
+.row2{
+    display:flex;
+    position:relative;
+    top:25px;
+}
+.attackBonus{
+    position:relative;
+    left: 222px;
+}
+.damage{
+    position:relative;
+    left: 355px;
+}
+.range{
+
+}
+.weight{
+    position: relative;
+    left: 95px
+}
+.type{
+    position: relative;
+    left: 170px
+}
+.size{
+    position: relative;
+    left: 250px;
+}
+section{
+    border: none
+}

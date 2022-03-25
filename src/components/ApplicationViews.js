@@ -1,6 +1,7 @@
 import React from "react"
 import { Route } from "react-router-dom"
 import { CharacterRoutes } from "./CharacterRoutes"
+import { EquipmentRoutes } from "./EquipmentRoutes"
 import { FeatRoutes } from "./FeatRoutes"
 import { Landing } from "./Landing"
 import { LevelRoutes } from "./LevelRoutes"
@@ -19,6 +20,7 @@ export default () => {
             <SkillRoutes />
             <FeatRoutes />
             <SheetRoutes />
+            <EquipmentRoutes />
         </>
     )
 }

@@ -1,0 +1,56 @@
+.armorShieldInfo{
+    position:absolute;
+    top:1195px;
+    left:70px;
+}
+.armorInfo{
+    margin-bottom: 75px;
+}
+.armorName{
+    position:relative;
+    left: 50px;
+}
+.armorType{
+    position:relative;
+    left: 195px;
+}
+.armorBonus{
+    position:relative;
+    left: 275px;
+}
+.maxDex{
+    position:relative;
+    left: 395px;
+}
+.ACP{
+    position:relative;
+    left: 36px;
+}
+.ASF{
+    position:relative;
+    left: 130px;
+}
+.armorWeight{
+    position:relative;
+    left: 275px;
+}
+.shieldWeight{
+    position:relative;
+    left: 5px;
+}
+.shieldName{
+    position:relative;
+    left: 65px;
+}
+.shieldBonus{
+    position:relative;
+    left: 200px;
+}
+.shieldACP{
+    position:relative;
+    left: 325px;
+}
+.shieldASF{
+    position:relative;
+    left: 420px;
+}

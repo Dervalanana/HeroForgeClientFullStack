@@ -18,12 +18,15 @@ export const SpecialAbilities = ({character}) => {
 
     useEffect(()=> {
         buildTracker()
+    },[])
+    useEffect(()=> {
+        buildTracker()
     },[character])
 
 
     return<>
         <div className="featsAndAbilities">
-            {feats.map(feat => <div className="specialAbilityRow">{`${feat.name}: ${feat.description}`}</div>)}
+            {feats.map(feat => <div className="specialAbilityRow">{`${feat}`}</div>)}
             {abilities.map(feat => <div className="specialAbilityRow">{`${feat}`}</div>)}
         </div>
     </>

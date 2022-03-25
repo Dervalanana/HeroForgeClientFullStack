@@ -2,12 +2,14 @@ import React, { useLayoutEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import CharacterRepository from "../../repos/CharacterRepository";
 import { AbilityGrid } from "./Abilities";
+import { Armor } from "./Armor";
 import { CharacterDetails } from "./CharacterDetails";
 import "./CharacterSheet.css"
 import { ClassDependents } from "./ClassDependents";
 import { DefensiveSpecs } from "./DefensiveSpecs";
 import { SkillTable } from "./SkillTable";
 import { SpecialAbilities } from "./SpecialAbilities";
+import { Weapons } from "./Weapons";
 
 
 export const Sheets = () => {
@@ -31,6 +33,8 @@ export const Sheets = () => {
                         <DefensiveSpecs character={character} />
                         <ClassDependents character={character} />
                         <SkillTable character={character} />
+                        <Weapons character={character} />
+                        <Armor character={character} />
                     </section>
                     <section className="sheet2Bg">
                         <SpecialAbilities character={character} />
